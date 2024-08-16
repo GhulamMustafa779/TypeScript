@@ -52,4 +52,15 @@ function anyFunction2(first: number, second = 2):number{
 //"noUnusedParameters": true,
 //"noImplicitReturns": true,   
 
+// How to use type check in arrow function
+const getHello = (s: string):string =>{
+    return s
+}
+
+const hero3: string[] = ['thor','spiderman','superman'];
+
+hero3.map((hero): string =>{
+    return `Hero is ${hero}`
+})
+
 

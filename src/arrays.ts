@@ -8,3 +8,4 @@
 let numbers : number[] = []
 // numbers.forEach(num=> num.toString()); // will only suggest functions for number
 
+const hero1: string[] = ['thor','spiderman','superman'];

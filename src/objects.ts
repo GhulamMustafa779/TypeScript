@@ -6,7 +6,7 @@ let employee = { id: 1 };
 // let employee2 :{
 //     id: number,
 //     name: string
-// } = {id:2}; // Erroe of not giving name in object
+// } = {id:2}; // Error of not giving name in object
 
 let employee3:{
     id:number,
@@ -51,8 +51,8 @@ let employee6: {
     }
 }
 
-// If we want to create an emplyee object again, we have to repeat the structure
-// Other emplyee object can have different shapes so it can result in non-consistent objects
+// If we want to create an employee object again, we have to repeat the structure
+// Other employee object can have different shapes so it can result in non-consistent objects
 // Structure can make code hard to read as well and make it complex too
 // To resolve this issue we can define a type
 type Employee = {
@@ -69,5 +69,6 @@ let employee7 :Employee = {
     retire: (date: Date) =>{
         console.log(date);
     }
-} // It makes the code clean, easy to understand and consistant
+} // It makes the code clean, easy to understand and consistent
+
 

@@ -7,10 +7,12 @@
 // Dynamicaly Typed Languages
 // Type is determined and can be chnaged over time.
 
-let x :number = 2;
+//let x :number = 2;
 // x = 'a';  Error
 
 // Drawbacks
 // Always need compilation before running because browsers don't know about typescript
 // --Transpilation
+
+
 
