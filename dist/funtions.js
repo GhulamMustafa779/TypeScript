@@ -28,4 +28,11 @@ function anyFunction2(first, second = 2) {
     console.log(second);
     return 0;
 }
+const getHello = (s) => {
+    return s;
+};
+const hero3 = ['thor', 'spiderman', 'superman'];
+hero3.map((hero) => {
+    return `Hero is ${hero}`;
+});
 //# sourceMappingURL=funtions.js.map

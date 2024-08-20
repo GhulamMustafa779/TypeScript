@@ -59,7 +59,7 @@ type Employee = {
     id: number,
     name: string,
     retire: (date: Date) => void
-}
+} // type alias 
 
 // Now if I create a new object I can simply use this type to annotate the new object
 
@@ -70,5 +70,19 @@ let employee7 :Employee = {
         console.log(date);
     }
 } // It makes the code clean, easy to understand and consistent
+
+
+type Laptop = {
+    readonly array: number[],
+}
+
+let laptop: Laptop ={
+    array:[1,2,3,4]
+}
+
+laptop.array.push(5); // It will add the value in the readonly memory
+console.log(laptop.array);
+
+
 
 

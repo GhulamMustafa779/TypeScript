@@ -24,4 +24,9 @@ let employee7 = {
         console.log(date);
     }
 };
+let laptop = {
+    array: [1, 2, 3, 4]
+};
+laptop.array.push(5);
+console.log(laptop.array);
 //# sourceMappingURL=objects.js.map
